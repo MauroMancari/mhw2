@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="mhw2.css">
+        <script src="mhw2.js" defer></script>
+        <title>Comics Corner</title>
+    </head>
+    <body>
+        <header>
+            <div class="upper-bar"></div>
+            <div class="middle-bar">
+                <nav>
+                    <div id="logo">
+                        <span>Comics Corner</span>                    
+                    </div>
+                    <div id="links">
+                        <a>Home</a>
+                        <a>Preferiti</a>
+                        <a>Login</a>
+                    </div>
+                    <div id="menu">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </nav>           
+            </div>
+        </header>
+
+        <section class="section-img">
+        </section>
+        <div id="button-change">
+            <h5>Cambia immagini:</h5>
+            <button id="indietro">Indietro</button>
+            <button id="avanti">Avanti</button>
+        </div>
+        
+        <section id="album-view" class="main">
+            <div class="boxed-content-column">
+                <div class="box-container">
+                    <a title="MANGA">
+                        <h3>Manga</h3>
+                        <img src="img/manga.webp">
+                    </a>
+                    <a title="MARVEL">
+                        <h3>Marvel</h3>
+                        <img src="img/fumetti.webp">
+                    </a>
+                    <a title="DC">
+                        <h3>DC</h3>
+                        <img src="img/DC.webp">
+                    </a>
+                    <a title="FUNKO POP">
+                        <h3>Funko Pop</h3>
+                        <img src="img/funko.png">
+                    </a>
+                </div>
+
+                <div class="contenitore">
+                    <div class="griglia">
+                        <a class="box-color">
+                            <h2>Manga - Ultimi arrivi</h2>
+                            <div class="effects">
+                                <span class="efx">GUARDA TUTTI</span>
+                            </div>
+                        </a>
+
+                        <div class="slider">
+                            <!-- <div></div> bottoni per far girare le immagini-->
+                            <div class="slider-cont">
+                                <div id class="list">
+                                    <a class="box-link">
+                                        <div class="card">
+                                            <div class="text-block">
+                                                <h3 class="caption">One Piece 107: Avventure nel paese di Wano</h3>
+                                                <h4 class="prezzo">
+                                                    <span>10.50€</span>
+                                                </h4>
+                                            </div>
+                                            <img src="img/onepiece.jpeg" class="slider-img mdl-img">
+                                        </div>
+                                    </a>
+                                    <a class="box-link">
+                                        <div class="card">
+                                            <div class="text-block">
+                                                <h3 class="caption">Naruto il mito 36 di 72 terza ristampa</h3>
+                                                <h4 class="prezzo">
+                                                    <span>5.25€</span>
+                                                </h4>
+                                            </div>
+                                            <img src="img/naruto.jpeg" class="slider-img mdl-img">
+                                        </div>
+                                    </a>
+                                    <a class="box-link">
+                                        <div class="card">
+                                            <div class="text-block">
+                                                <h3 class="caption">Slam-Dunk: The first slam dunk contest</h3>
+                                                <h4 class="prezzo">
+                                                    <span>1.00€</span>
+                                                </h4>
+                                            </div>
+                                            <img src="img/slamdunk.jpeg" class="slider-img mdl-img">
+                                        </div>
+                                    </a>
+                                    <a class="box-link">
+                                        <div class="card">
+                                            <div class="text-block">
+                                                <h3 class="caption">One-Punch Man: Vol 10</h3>
+                                                <h4 class="prezzo">
+                                                    <span>8.75€</span>
+                                                </h4>
+                                            </div>
+                                            <img src="img/punchman.jpeg" class="slider-img mdl-img">
+                                        </div>
+                                    </a>
+                                    <a class="box-link">
+                                        <div class="card">
+                                            <div class="text-block">
+                                                <h3 class="caption">Death Note: Short Stories</h3>
+                                                <h4 class="prezzo">
+                                                    <span>6.35€</span>
+                                                </h4>
+                                            </div>
+                                            <img src="img/death.jpeg" class="slider-img mdl-img">
+                                        </div>
+                                    </a>
+                                    <a class="box-link">
+                                        <div class="card">
+                                            <div class="text-block">
+                                                <h3 class="caption">Demon Slayer - Kimetsu no yaiba</h3>
+                                                <h4 class="prezzo">
+                                                    <span>10.00€</span>
+                                                </h4>
+                                            </div>
+                                            <img src="img/demon.jpeg" class="slider-img mdl-img">
+                                        </div>
+                                    </a>
+                                    <a class="box-link">
+                                        <div class="card">
+                                            <div class="text-block">
+                                                <h3 class="caption">Detective Conan: Il mistero del cristallo</h3>
+                                                <h4 class="prezzo">
+                                                    <span>10.55€</span>
+                                                </h4>
+                                            </div>
+                                            <img src="img/conan.jpeg" class="slider-img mdl-img">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contenitore">
+                    <div class="griglia">
+                        <a class="box-color">
+                            <h2>Fumetti Marvel - Ultimi arrivi</h2>
+                            <div class="effects">
+                                <span class="efx">GUARDA TUTTI</span>
+                            </div>
+                        </a>
+
+                        <div class="slider">
+                            <!-- <div></div> bottoni per far girare le immagini-->
+                            <div class="slider-cont">
+                                <div class="list">
+                                    <a class="box-link">
+                                        <div class="card pref">
+                                            <div class="text-block">
+                                                <h3 class="caption">L'incredibile Hulk di Peter David (dblclick)</h3>
+                                                <h4 class="prezzo">
+                                                    <span>10.50€</span>
+                                                </h4>
+                                            </div>
+                                            <img src="img/hulk.jpeg" class="slider-img">
+                                        </div>
+                                    </a>
+                                    <a class="box-link">
+                                        <div class="card">
+                                            <div class="text-block">
+                                                <h3 class="caption">Iron Man: L'invincibile Iron Man 2</h3>
+                                                <h4 class="prezzo">
+                                                    <span>12.25€</span>
+                                                </h4>
+                                            </div>
+                                            <img src="img/ironman.jpeg" class="slider-img mdl-img">
+                                        </div>
+                                    </a>
+                                    <a class="box-link">
+                                        <div class="card">
+                                            <div class="text-block">
+                                                <h3 class="caption">Thor vs Hulk: Vessilli di guerra</h3>
+                                                <h4 class="prezzo">
+                                                    <span>15.55€</span>
+                                                </h4>
+                                            </div>
+                                            <img src="img/thorvshulk.jpeg" class="slider-img mdl-img">
+                                        </div>
+                                    </a>
+                                    <a class="box-link">
+                                        <div class="card">
+                                            <div class="text-block">
+                                                <h3 class="caption">The Amazing Spider-Man: Vol 40</h3>
+                                                <h4 class="prezzo">
+                                                    <span>12.50€</span>
+                                                </h4>
+                                            </div>
+                                            <img src="img/spideman.jpeg" class="slider-img mdl-img">
+                                        </div>
+                                    </a>
+                                    <a class="box-link">
+                                        <div class="card">
+                                            <div class="text-block">
+                                                <h3 class="caption">Captain America: Marvel Knights</h3>
+                                                <h4 class="prezzo">
+                                                    <span>10.50€</span>
+                                                </h4>
+                                            </div>
+                                            <img src="img/captainamerica.jpeg" class="slider-img mdl-img">
+                                        </div>
+                                    </a>
+                                    <a class="box-link">
+                                        <div class="card">
+                                            <div class="text-block">
+                                                <h3 class="caption">Venom: Protettore letale</h3>
+                                                <h4 class="prezzo">
+                                                    <span>11.00€</span>
+                                                </h4>
+                                            </div>
+                                            <img src="img/venom.jpeg" class="slider-img mdl-img">
+                                        </div>
+                                    </a>
+                                    <a class="box-link">
+                                        <div class="card">
+                                            <div class="text-block">
+                                                <h3 class="caption">Guardiani della Galassia: Retaggio</h3>
+                                                <h4 class="prezzo">
+                                                    <span>13.25€</span>
+                                                </h4>
+                                            </div>
+                                            <img src="img/guardiani.jpeg" class="slider-img mdl-img">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contenitore">
+                    <div class="griglia">
+                        <a class="box-color">
+                            <h2>DC Comics - Ultimi arrivi</h2>
+                            <div class="effects">
+                                <span class="efx">GUARDA TUTTI</span>
+                            </div>
+                        </a>
+
+                        <div class="slider">
+                            <!-- <div></div> bottoni per far girare le immagini-->
+                            <div class="slider-cont">
+                                <div class="list">
+                                    <a class="box-link">
+                                        <div class="card">
+                                            <div class="text-block">
+                                                <h3 class="caption">Super Man: La nascita di un eroe</h3>
+                                                <h4 class="prezzo">
+                                                    <span>8.50€</span>
+                                                </h4>
+                                            </div>
+                                            <img src="img/superman.jpeg" class="slider-img mdl-img">
+                                        </div>
+                                    </a>
+                                    <a class="box-link">
+                                        <div class="card">
+                                            <div class="text-block">
+                                                <h3 class="caption">Green Arrow: Emerald archer</h3>
+                                                <h4 class="prezzo">
+                                                    <span>9.55€</span>
+                                                </h4>
+                                            </div>
+                                            <img src="img/arrow.jpeg" class="slider-img mdl-img">
+                                        </div>
+                                    </a>
+                                    <a class="box-link">
+                                        <div class="card">
+                                            <div class="text-block">
+                                                <h3 class="caption">Acquaman: Profondità marine</h3>
+                                                <h4 class="prezzo">
+                                                    <span>10.50€</span>
+                                                </h4>
+                                            </div>
+                                            <img src="img/acquaman.jpeg" class="slider-img mdl-img">
+                                        </div>
+                                    </a>
+                                    <a class="box-link">
+                                        <div class="card">
+                                            <div class="text-block">
+                                                <h3 class="caption">Wonder Woman: Terra uno</h3>
+                                                <h4 class="prezzo">
+                                                    <span>9.15€</span>
+                                                </h4>
+                                            </div>
+                                            <img src="img/wonderwoman.jpeg" class="slider-img mdl-img">
+                                        </div>
+                                    </a>
+                                    <a class="box-link">
+                                        <div class="card">
+                                            <div class="text-block">
+                                                <h3 class="caption">Joker: L'uomo che ha smesso di ridere</h3>
+                                                <h4 class="prezzo">
+                                                    <span>15.25€</span>
+                                                </h4>
+                                            </div>
+                                            <img src="img/joker.jpeg" class="slider-img mdl-img">
+                                        </div>
+                                    </a>
+                                    <a class="box-link">
+                                        <div class="card">
+                                            <div class="text-block">
+                                                <h3 class="caption">Harley Devasta l'Universo DC</h3>
+                                                <h4 class="prezzo">
+                                                    <span>10.85€</span>
+                                                </h4>
+                                            </div>
+                                            <img src="img/harley.jpeg" class="slider-img mdl-img">
+                                        </div>
+                                    </a>
+                                    <a class="box-link">
+                                        <div class="card">
+                                            <div class="text-block">
+                                                <h3 class="caption">Flash 47</h3>
+                                                <h4 class="prezzo">
+                                                    <span>6.45€</span>
+                                                </h4>
+                                            </div>
+                                            <img src="img/flash.jpeg" class="slider-img mdl-img">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            
+
+                <div class="contenitore">
+                    <div class="griglia">
+                        <a class="box-color">
+                            <h2>Funko Pop - Ultimi arrivi</h2>
+                            <div class="effects">
+                                <span class="efx">GUARDA TUTTI</span>
+                            </div>
+                        </a>
+
+                        <div class="slider">
+                            <!-- <div></div> bottoni per far girare le immagini-->
+                            <div class="slider-cont">
+                                <div class="list">
+                                    <a class="box-link">
+                                        <div class="card">
+                                            <div class="text-block">
+                                                <h3 class="caption">Funko Pop x Michael Jordan</h3>
+                                                <h4 class="prezzo">
+                                                    <span>10.50€</span>
+                                                </h4>
+                                            </div>
+                                            <img src="img/mj.jpeg" class="slider-img mdl-img">
+                                        </div>
+                                    </a>
+                                    <a class="box-link">
+                                        <div class="card">
+                                            <div class="text-block">
+                                                <h3 class="caption">Funko Pop x Harry Potter - Voldemort</h3>
+                                                <h4 class="prezzo">
+                                                    <span>15.00€</span>
+                                                </h4>
+                                            </div>
+                                            <img src="img/voldemort.jpeg" class="slider-img mdl-img">
+                                        </div>
+                                    </a>
+                                    <a class="box-link">
+                                        <div class="card">
+                                            <div class="text-block">
+                                                <h3 class="caption">Funko Pop x One Piece - Ace</h3>
+                                                <h4 class="prezzo">
+                                                    <span>15.25€</span>
+                                                </h4>
+                                            </div>
+                                            <img src="img/ace.jpeg" class="slider-img mdl-img">
+                                        </div>
+                                    </a>
+                                    <a class="box-link">
+                                        <div class="card">
+                                            <div class="text-block">
+                                                <h3 class="caption">Funko Pop x Marvel - Black Panther</h3>
+                                                <h4 class="prezzo">
+                                                    <span>12.00€</span>
+                                                </h4>
+                                            </div>
+                                            <img src="img/marvel2.jpeg" class="slider-img mdl-img">
+                                        </div>
+                                    </a>
+                                    <a class="box-link">
+                                        <div class="card">
+                                            <div class="text-block">
+                                                <h3 class="caption">Funko Pop x Naruto Shippuden - Gaara</h3>
+                                                <h4 class="prezzo">
+                                                    <span>10.5€</span>
+                                                </h4>
+                                            </div>
+                                            <img src="img/gaara.jpeg" class="slider-img mdl-img">
+                                        </div>
+                                    </a>
+                                    <a class="box-link">
+                                        <div class="card">
+                                            <div class="text-block">
+                                                <h3 class="caption">Funko Pop x Marvel - Torcia Umana</h3>
+                                                <h4 class="prezzo">
+                                                    <span>9.50€</span>
+                                                </h4>
+                                            </div>
+                                            <img src="img/marvel.jpeg" class="slider-img mdl-img">
+                                        </div>
+                                    </a>
+                                    <a class="box-link">
+                                        <div class="card">
+                                            <div class="text-block">
+                                                <h3 class="caption">Funko Pop x DC Comics - Super Man</h3>
+                                                <h4 class="prezzo">
+                                                    <span>13.25€</span>
+                                                </h4>
+                                            </div>
+                                            <img src="img/dc.jpeg" class="slider-img mdl-img">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>           
+        </section>
+        
+        <section id="modal-view" class="hidden">
+        </section>
+        
+
+        <section class="grid2">
+            <div class="vetrina">
+                <div class="title">
+                    <h2>In vetrina</h2>
+                </div>
+                <div class="idk">
+                    <div class="cover">
+                        <img src="img/batman_dylandog.webp">
+                    </div>
+                    <div class="text">
+                        <h3>Batman e Dylan Dog 1 di 3 L'ombra del pipistrello</h3>
+                        <div>
+                            <p>
+                                Ci siamo. E' scoccata l'ora fatale: Il Bat-segnale si accende nella notte a chiamare in azione l'indagatore dell'incubo e le piste di Batman e Dyla Dog si congiungono. In tre albri sceneggiatida Roberto Recchioni e disegnati da Gigi Cavenago, su matite di werther dell'edera con i colori di Giovanna niro, si dispiegherà la complessa vicenda che vedere in azione, fianco a fianco, la creatura di Tiziano Sclavi (trasformatasi nel tempo in un autentico fenomeno di costume) e quel cavaliere oscuro made in DC comics che, a partire dagli anni quaranta, è diventato una delle icone pop più conosciute e amate dei fumetti, del cinema, della tv, dei videogiochi e del merchandaising. E con loro due, a muoversi nel lato oscuro del mondo, tra Gotham e Londra, ci saranno Grucho e Alfred, Gordon e Bloch, Xabaras e Joker. E ancora Killer Croc, Madame Trelkovski, Catwoman, Etrigan. E poi zombie a volontà. Ma poteva forse mancare un certo John Constantine? Appuntamento mensile a partire da giugno, tra Londra e Gotham City!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="button">
+                    <div>
+                        <a>Vai ai prodotti</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="show-details">
+            <img src="img/forward-arrow.png">
+            <span>Visualizza dettagli</span>
+        </div>
+        
+
+        <div class="content hidden">
+            <p>
+                Nel nostro sito puoi trovare:
+            </p>
+            <ul>
+                <li>Manga sempre aggiornati</li>
+                <li>Fumetti Marvel in edizione limitata</li>
+                <li>DC Comics, fumetti e funko pop</li>
+                <li>I Funko Pop più belli di sempre</li>
+            </ul>
+        </div>
+
+        <footer>
+            <section id="upper-half">
+                <div class="upper-first">
+                    <div class="upper-second">
+                        <div class="upper-details">
+                            <h4>Spedizioni gratuite</h4>
+                            <div>
+                                <p>
+                                    Con una spesa minima di 35€.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="upper-details">
+                            <h4>Imballaggio accurato</h4>
+                            <div>
+                                <p>
+                                    Imballiamo il tuo ordine con cura, usando solo materiale ecologico e biodegradabile.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="upper-details">
+                            <h4>Abbonati alle tue serie preferite</h4>
+                            <div>
+                                <p>
+                                    Abbonati alle collane che segui, non perdere nemmeno un'uscita. Spedizioni flessibili del solo materiale disponibile.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="upper-details">
+                            <h4>Paga con 18App o carta docente</h4>
+                            <div>
+                                <p>
+                                    Paga i tuoi acquisti con il bonus 18APP o Carta Docente.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </section>
+
+            <section class="footer-bar">
+                <div class="first">
+                    <div class="first second">
+                        <div class="details">
+                            <h4>Aiuto</h4>
+                            <div>
+                                <p>
+                                    <a>Contatti</a><br>
+                                    <a>FAQs</a><br>
+                                    <a>Termi e condizioni per l'utilizzo</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <h4>Account</h4>
+                            <div>
+                                <p>
+                                    <a>Il mio account</a><br>
+                                    <a>Lista preferiti</a><br>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <h4>Società</h4>
+                            <div>
+                                <p>
+                                    <a class="underline" data-name="one">Cerca il Comics Corner più vicino a te</a><br>
+                                    <a class="underline" data-name="one">Su di noi</a><br>
+                                    <a class="underline" data-name="one">Lavora con noi</a><br>
+                                    <a class="underline" data-name="one">Apri un Comics Corner</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </section>
+
+            <section id="credits">
+                <div>
+                    <p>Powered by Mauro Mancari - Matricola: 1000006555</p>
+                </div>
+            </section>
+        
+        </footer>
+
+    </body>
+</html>
